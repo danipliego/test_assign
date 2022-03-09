@@ -12,6 +12,7 @@ public class TestVatCalculator{
     }
 
     // test case 1
+    // daniel pliego test case
     @Test
     public void test_Vat_UK(){
         assertEquals(120, cc.VAT_UK(100));
