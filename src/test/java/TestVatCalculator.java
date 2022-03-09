@@ -22,6 +22,6 @@ public class TestVatCalculator{
     public void test_Vat_SWE() { assertEquals( 125, cc.VAT_SWE(100)); }
 
     @Test
-    public void test_Vat_SPN() { assertEquals( 15, cc.VAT_SPN(100)); }
+    public void test_Vat_SPN() { assertEquals( 121, cc.VAT_SPN(100)); }
 
 }
